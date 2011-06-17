@@ -1,0 +1,5 @@
+project(HELLO)
+set(src_list main.cpp head.cpp head.h)
+message(status "bin dir" ${HELLO_BINARY_DIR})
+message(status "src dir" ${HELLO_SOURCE_DIR})
+add_executable(hello ${src_list})
